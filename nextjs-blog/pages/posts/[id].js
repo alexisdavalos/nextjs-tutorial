@@ -9,6 +9,11 @@ export default function Post({ postData }) {
     <Layout>
       <Head>
         <title>{postData.title}</title>
+        {/* highlight css cdn */}
+        <link
+          rel="stylesheet"
+          href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/default.min.css"
+        ></link>
       </Head>
       <article>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>

@@ -1,3 +1,12 @@
+.bannerContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .bannerImage {
+    width: 100%;
+  }
+}
+
 .heading2Xl {
   font-size: 2.5rem;
   line-height: 1.2;

@@ -9,3 +9,25 @@ Next.js has two forms of pre-rendering: **Static Generation** and **Server-side 
 - **Server-side Rendering** is the pre-rendering method that generates the HTML on **each request**.
 
 Importantly, Next.js lets you **choose** which pre-rendering form to use for each page. You can create a "hybrid" Next.js app by using Static Generation for most pages and using Server-side Rendering for others.
+
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+for (let i = 0; i < s.length; i++) {
+  console.log(i);
+}
+```
+
+```python
+array = [3,4,5,6]
+
+for elem in array:
+    print(element)
+
+```
+
+```css
+h1 {
+  color: red;
+}
+```
